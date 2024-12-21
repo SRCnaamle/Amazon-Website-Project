@@ -1,3 +1,3 @@
-import {renderOrderSummery} from './checkuot/orderSummery.js';
+import {renderOrderSummary} from './checkuot/orderSummary.js';
 
-renderOrderSummery();
+renderOrderSummary();
