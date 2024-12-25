@@ -1,6 +1,6 @@
 import {cart, addToCart} from '../data/cart.js';
 import { products, loadProducts } from '../data/products.js';
-import {formatCurrency} from './utils/money.js';
+//import {formatCurrency} from './utils/money.js';
 
 loadProducts(renderProductGrid);
 
@@ -72,6 +72,8 @@ function renderProductGrid() {
 
     document.querySelector('.js-cart-quantity').innerHTML = cartQuantity;
   }
+
+  updateCartQuantity();
 
   document.querySelectorAll('.js-add-to-cart').forEach((button)=>{
   button.addEventListener('click',()=>{
